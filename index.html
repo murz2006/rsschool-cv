@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/favicon.ico">
+</head>
+<body>
+    <!-- <img src="./assets/img/avatar.jpg" alt="my photo"> -->
+
+    <!-- сочетание клавиш ! + Tab - выведет основу html документа
+link + Tab = <link rel="stylesheet" href=""> - используем для подключения стилей, значением атрибута href указываем путь к файлу style.css
+.container + Tab = <div class="container"> - точка перед названием класса позволяет создать div с указанным классом
+а + Tab = <a href=""></a> - создаём тег, вместо a может быть любой другой тег
+a.card + Tab = <a href="" class="card"></a> - создаём тег a с указанным классом, вместо a может быть любой другой тег
+ul>li*3 + Tab - выводится ненумерованный список с тремя пунктами, угловая скобка означает вложенность: li находится внутри ul, знак умножения и число после него - количество однотипных элементов
+ul.nav-list>li.nav-item*3>a.nav-link + Tab - выведется ненумерованный список ul с классом nav-list с тремя пунктами li с классом nav-item внутри каждого li ссылка a с классом nav-link -->
+
+
+
+<header class="header">
+    <nav class="nav">
+        <ul class="nav-list">
+            <!-- Каждой ссылке навигации укажите адрес, который начинается с решётки, а дальше идёт название раздела, на который она ведёт. Это якорные ссылки, при кликам по которым страница прокручивается до нужного раздела. Для этого разделам страницы необходимо указать id такие же, как и адреса ссылок в пунктах навигации -->
+            <!-- Отступы добавляем ссылкам, а не элементам списка. Это позволяет увеличить площадь, по которой можно кликнуть, чтобы перейти по ссылке, и улучшает удобство пользования приложением.
+
+                Так как ссылки - строчные элементы, вертикальные padding у них создаются, но не отталкивают другие элементы. Для строчных элементов вместо вертикальных padding удобнее указывать высоту строки.
+
+                Можно сразу убрать подчёркивание у ссылок, указать цвет и размер шрифта. -->
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">courses</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">english</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="main main-container">
+    <section class="section" id="profile">
+        <img src="./assets/img/avatar.jpg" alt="" class="avatar">
+        <h1 class=".section-title">Murzaev Alexandr</h1>
+    </section>           
+    <section class="section" id="contacts">
+        <h2 class=".section-title">contacts</h2>
+        <p>Phone: +79278454036</p>
+        <p>E-mail: 1sasha@mail.ru</p>
+        <p>Telegram: @murz2006</p>
+    </section>           
+    <section class="section" id="summary">
+        <h2 .section-title>summary</h2>
+    </section>           
+    <section class="section" id="skills">
+        <h2 class=".section-title">skills</h2>
+    </section>           
+    <section class="section" id="code">
+        <h2 class=".section-title">code</h2>
+    </section>           
+    <section class="section" id="courses">
+        <h2 class=".section-title">courses</h2>
+    </section>           
+    <section class="section" id="projects">
+        <h2 class=".section-title">projects</h2>
+    </section>           
+    <section class="section" id="education">
+        <h2 class=".section-title">education</h2>
+    </section>           
+    <section class="section" id="languages">
+        <h2 class=".section-title">languages</h2>
+        <p>A0</p>
+    </section>           
+</main>
+<!-- в footer необходимо добавить ссылку на ваш гитхаб, год создания приложения, логотип курса со ссылкой на курс -->
+<footer class="footer"></footer>
+</body>
+</html>
