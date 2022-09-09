@@ -4,6 +4,7 @@
 Phone: +79278454036
 E-mail: 1sasha@mail.ru
 Telegram: @murz2006
+Discord: murz2006#5021
 
 ## Briefly About Myself:
 I like "front-end" so I decided to take a course at RS-school.
